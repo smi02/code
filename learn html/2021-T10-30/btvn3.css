@@ -1,0 +1,161 @@
+.main{
+    width: 1500px;
+    height: 600px;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(139, 139, 236);
+}
+.header h4{
+    float: top;
+    margin-left: 1050px;
+    font-weight: bold;
+    color: yellow;
+    padding-top: 15px;
+}
+.header ul li{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    margin-left: 118px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.middle{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(139, 139, 236);
+    margin-top: -12px;
+}
+.middle .top h2 {
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.middle .top p{
+    padding-top: 60px;
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    height: 500px;
+    margin-top: -13px;
+}
+.bottom .box{
+    width: 362px;
+    height: 100%;
+    float: left;
+
+}
+.bottom .box h2{
+    color: red;
+    text-align: left;
+}
+.bottom .box p{
+    text-align: justify;
+    font-size: 20px;
+}
+.bottom .box li{
+    text-align: justify;
+    font-size: 18px;
+    color: lightblue;
+}
+.bottom .box i{
+    width: 20px;
+    height:20px;
+    line-height: 20px;  
+    float: left;
+}
+.bottom .box img{
+    width: 100%;
+    height:auto;
+}
+.bottom .box .Weather{
+    width: 100%;
+    height: 50px;
+}
+.bottom .box .Weather .box2{
+    width: 33%;
+    float: left;
+    border-left: 1px solid white;
+    
+} 
+.bottom .box .Weather img{
+  width: 100%;
+  height: 70%;
+  background-color: red;
+} 
+.box .day .box3{
+    margin-top: 20px;
+    float: left;
+    width: 118px;
+    height: 50px;
+    background-color: red;
+    border-right: 1px soid white;
+    margin-left: 2px;
+}
+.box .day .box3 hr{
+    width: 40%;
+    color: white;
+    margin-top: -18px;
+}
+.box .day .box3 p{
+    text-align: center;
+    margin-top: -8px;
+    color: yellow;
+}
+.khung{
+    width: 100%;
+    height: 50px;
+}
+.bottom .box .khung1{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(85, 100, 151);
+    color: white;
+    margin: auto;
+    border-radius: 6%;
+}
+.bottom .box .khung1 p{
+    text-align: center;
+    padding-top: 8px;
+}
+.bottom .box .khung1 a{
+    text-decoration: none;
+    color: white;
+}
+.bottom .box .khung{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+.bottom .box .khung .khung2{
+    width: 49%;
+    height: 40px;
+    float: left;
+    background-color:red ;
+    border-radius: 6%;
+}
+.bottom .box .khung .khung2 p{
+    text-align: center;
+    margin-top: 6px;
+    color: white;
+}
+.bottom .box .khung .khung3{
+    width: 49%;
+    height: 40px;
+    float: right;
+    background-color:red ;
+    border-radius: 6%;
+}
+.bottom .box .khung .khung3 p{
+    text-align: center;
+    margin-top: 6px;
+    color: white;
+}
+.bottom .box .khung a{
+    text-decoration: none;
+}
