@@ -1,0 +1,12 @@
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: red;
+}
+.bg-green{
+    background-color: forestgreen;
+}
+.bg-bisque{
+    background-color: bisque;
+}
