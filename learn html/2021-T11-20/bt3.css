@@ -1,0 +1,95 @@
+.main{
+    width: 900px;
+    height: 300px;
+    margin: auto;
+}
+.h{
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+.h1{
+    width: 300px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    background-color: blue;
+}
+.h2{
+    width: 300px;
+    height: 150px;
+    display: none;
+    border-radius: 10px;
+    background-color: forestgreen;
+    box-shadow: 20px 20px 20px silver;
+}
+.h1:hover + .h2{
+    display: block;
+    transform: translate(1.5em,1.5em);
+}
+.h1:hover{
+    filter: blur(5px);
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 50%;
+    background-color: red;
+}
+.c1{
+    width: 280px;
+    height: 280px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: orange;
+}
+.c2{
+    width: 260px;
+    height: 260px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: yellow;
+}
+.c3{
+    width: 240px;
+    height: 240px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: green;
+}
+.c4{
+    width: 220px;
+    height: 220px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: blue;
+}
+.c5{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: darkviolet;
+}
+.c6{
+    width: 180px;
+    height: 180px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: violet;
+}
+.c7{
+    width: 160px;
+    height: 160px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: white;
+}
