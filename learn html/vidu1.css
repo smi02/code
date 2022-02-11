@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.bg-darkblue{
+    background-color: darkblue;
+}
+.bg-gray{
+    background-color: gray;
+}
+a{
+    color: white;
+}
+li:hover{
+    background-color: red;
+}
