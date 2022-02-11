@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ví dụ về table</title>
+    <style type="text/css">
+        tr{
+            height: 35px;
+        }
+        td{
+            width: 150px;
+        }
+        tr:nth-child(even){
+            background-color: violet;
+        }
+        tr:nth-last-child(even){
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table width="400px" border="1px" style="margin: auto; white-space: nowrap;
+        border-collapse: collapse;">
+            <tr>
+                <th>7:00PM</th>
+                <th>7:30PM</th>
+                <th>8:00PM</th>
+                <th>10:00PM</th>
+            </tr>
+            <tr>
+                <td colspan="3">Tối nay chúng ta sẽ di chuyển</td>
+                <td rowspan="5">Nghỉ Ngơi</td>
+            </tr>
+            <tr>
+                <td>Xuất phát</td>
+                <td>Đến điểm a</td>
+                <td>Uống cà phê</td>
+            </tr>
+            <tr>
+                <td>Chuẩn bị</td>
+                <td colspan="2">Cùng nhau đi</td>
+            </tr>
+            <tr>
+                <td>Xuất phát</td>
+                <td>Đến điểm a</td>
+                <td>Uống cà phê</td>
+            </tr>
+            <tr>
+                <td>Xuất phát</td>
+                <td>Đến điểm a</td>
+                <td>Uống cà phê</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

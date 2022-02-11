@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng 1</title>
+    <style>
+        .computer{
+            background-image: url(img/computer.jpg);
+            background-size: 90px 50px;
+            background-repeat: no-repeat;
+        }
+        .chip{
+            background-image: url(img/chip.jpg);
+            background-size: 90px 50px;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table width="400px" border="5px" style="margin: auto; white-space: nowrap;">
+            <tr>
+                <th colspan="4">Purchased Equipments (June, 2006)</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Item Num#</th>
+                <th rowspan="2">Item Picture</th>
+                <th>Item Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <th>Shipping Handling, Installation, etc</th>
+                <th>Expense</th>
+            </tr>
+            <tr>
+                <td rowspan="2">1.</td>
+                <td rowspan="2" class="computer"></td>
+                <td>IBM Clone Computer.</td>
+                <td>$ 400.00</td>
+            </tr>
+            <tr>
+                <td>Shipping Handling, Installation, etc</td>
+                <td>$ 20.00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2.</td>
+                <td rowspan="2" class="chip"></td>
+                <td>1GB RAM Module for Computer.</td>
+                <td>$ 50.00</td>
+            </tr>
+            <tr>
+                <td>Shipping Handling, Installation, etc</td>
+                <td>$ 14.00</td>
+            </tr>
+            <tr>
+                <th colspan="4">Purchased Equipments (June, 2006)</th>
+            </tr>
+        </table>
+    </div>
+</body>
