@@ -1,0 +1,69 @@
+.khung{
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    background-color: silver;
+}
+.tren{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: rgb(95, 89, 89);
+}
+.dong{
+    width: 150px;
+    height: 60px;
+    float: left;
+    background-color: rgb(95, 89, 89);
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    color: white;
+}
+.dong:hover{
+    background-color: blue;
+}
+
+.giua{
+    width: 100%;
+    height: 300px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.giua img{
+    width: 100%;
+    height: 300px;
+}
+.tieude{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+    top: 90px;
+    left: 200px;
+}
+
+.cuoi{
+    width: 100%;
+    height: 240px;
+    float: left;
+}
+.lorem{
+    width: 280px;
+    height: 160px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.lorem .dongdau{
+    color: red;
+    font-size: 15px;
+}
+.lorem .cuoi{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
