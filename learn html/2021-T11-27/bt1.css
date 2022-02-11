@@ -1,0 +1,57 @@
+.main{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background-color: cornflowerblue;
+    position: relative;
+}
+img{
+    width: 600px;
+    height: 360px;
+    margin: 10px 90px 5px 90px;
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.main ul li.next{
+    position: absolute;
+    top: 185px;
+    right: 0;
+}
+.main ul li.pre{
+    position: absolute;
+    top: 185px;
+    left: 0;
+}
+.main ul li.next a{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-right: 35px;
+}
+.main ul li.pre a{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-left: 35px;
+}   
+.fw{
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 50%;
+    top: 330px;
+    left: 100px;
+    background-color: black;
+}

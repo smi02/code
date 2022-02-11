@@ -1,0 +1,176 @@
+.main{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background-color: orange;
+    position: relative;
+}
+img{
+    width: 800px;
+    height: 400px;
+    opacity: 80%;
+}
+.main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.main ul li.next{
+    position: absolute;
+    top: 185px;
+    right: 0;
+}
+.main ul li.pre{
+    position: absolute;
+    top: 185px;
+    left: 0;
+}
+.main ul li.next a{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-right: 35px;
+    color: white;
+}
+.main ul li.pre a{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-left: 35px;
+    color: white;
+}
+.main ul li.next a:hover{
+    color: red;
+}
+.main ul li.pre a:hover{
+    color: red;
+}
+
+
+.control {
+    position: absolute;
+    width: 95%;
+    top: 37%;
+    left: 2.5%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.control a{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+
+}
+.control a:hover{
+    opacity: 70%;
+}
+.control a::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-left: 5px solid #eee;
+    border-bottom: 5px solid #eee;
+    transform: rotate(45deg);
+    right: 7px;
+}
+.control a:nth-child(2):before{
+    transform: rotate(225deg);
+    left: 7px;
+}
+.fbs{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 100px;
+    left: 250px;
+}
+.re{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 145px;
+    left: 250px;
+}
+.at{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 160px;
+    left: 250px;
+}
+.se{
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 250px;
+    left: 259px;
+    border: 3px solid white;
+}
+.la{
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 250px;
+    left: 415px;
+    border: 3px solid white;
+}
+.fall{
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 300px;
+    left: 337px;
+    border: 3px solid white;
+}
+.se:hover{
+    opacity: 70%;
+}
+.la:hover{
+    opacity: 70%;
+}
+.fall:hover{
+    opacity: 70%;
+}
