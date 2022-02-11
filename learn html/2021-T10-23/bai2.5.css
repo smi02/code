@@ -1,0 +1,53 @@
+/* @Charset 'utf-8';
+*{
+    padding: 0;
+    margin: 0;
+} */
+.khung-main{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    background-color: silver;
+}
+.khung-1{
+    width: 300px;
+    height: 100%;
+    margin-left: 25px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    float: left;
+}
+.xemct{
+    width: 150px;
+    height: 40px;
+    border-radius : 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height:40px;
+    color: white;
+    background-color: silver;
+    margin: 75px;
+}
+.xemct:hover {
+background: lightblue;
+color: red;
+}
+.khung-2{
+    width: 300px;
+    height: 100%;
+    margin-left: 25px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    float: left;
+}
+.khung-3{
+    width: 300px;
+    height: 100%;
+    margin-left: 25px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    float: left;
+}
